@@ -4,7 +4,9 @@
     "description": "tourism",
     "main": "js/app.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "start:dev": "webpack-dev-server"
     },
     "keywords": [
         "project"
@@ -13,6 +15,7 @@
     "license": "ISC",
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.15.1",
+        "auto-prefixer": "^0.4.2",
         "autoprefixer": "^10.0.1",
         "autoprefixer-loader": "^3.2.0",
         "css-loader": "^5.0.1",
@@ -26,7 +29,8 @@
         "postcss-loader": "^3.0.0",
         "sass-loader": "^10.0.5",
         "webpack": "^5.4.0",
-        "webpack-cli": "^4.2.0"
+        "webpack-cli": "^4.2.0",
+        "webpack-dev-server": "^3.11.0"
     },
     "dependencies": {
         "bootstrap": "^4.5.3",
