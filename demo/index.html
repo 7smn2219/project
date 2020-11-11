@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="/css/app.css">
 </head>
 
-<body class="app sidebar-mini">
+<body class="app">
 
     <header class="app-header">
         <a href="/" class="app-header__logo">HQ Admin</a>
+        <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"><span class="fa fa-bars"></span></a>
         <ul class="app-nav">
             <li class="app-search">
                 <input class="app-search__input" type="search" placeholder="search">
@@ -35,25 +36,38 @@
     </header>
     <aside class="app-sidebar">
         <ul class="app-menu">
-            <li><a href="">Test</a></li>
-            <li><a href="">Test</a></li>
-            <li><a href="">Test</a></li>
-            <li><a href="">Test</a></li>
-            <li><a href="">Test</a></li>
+            <li><a class="app-menu__item" href="/index.html">Index</a></li>
+            <li><a class="app-menu__item" href="/cards.html">Cards</a></li>
+            <li><a class="app-menu__item" href="/forms.html">Forms</a></li>
+            <li><a class="app-menu__item" href="/tables.html">Tables</a></li>
 
         </ul>
 
     </aside>
     <main class="app-content">
         <div class="app-title">
-
+            <h5>Index Page</h5>
         </div>
         <div class="row">
             <div class="col-md-6">
-                Left Column
+                <div class="card">
+                    <h5 class="card-header">Featured</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
             <div class="col-md-6">
-                Right Column
+                <div class="card">
+                    <h5 class="card-header">Featured</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
         </div>
 
